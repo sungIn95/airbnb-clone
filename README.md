@@ -1,3 +1,10 @@
+# Airbnb Clone
+
+Cloning Airbnb with python, Django, Tailwind and more... 
+
+
+
+
 1.0 정리 
 pip을 쓰지 않는 이유는 이렇게 설치하면 모든 곳에 설치가 된다. 이것의 문제점이 장고 버전 2을 쓰다가 3으로 바꾸고 싶을 때, 모든 곳에 영향을 주기 떄문에 서로에게 영향을 미친다. 
 1.1 pip install 
@@ -31,4 +38,9 @@ pip install pipenv 이 방법 시도 후 다시 실패.
 pipenv install Django==2.2.5 장고 설치 pipenv install Django게 설치하면 최신버전. 
 django-admin 로 제대로 깔렸는지 확인~!!!
 
-1.3 
+1.3  
+git init
+git remote add origin https://github.com/sungIn95/airbnb-clone
+git add .
+git commit -m "#1.2 정리"
+touch .gitignore
